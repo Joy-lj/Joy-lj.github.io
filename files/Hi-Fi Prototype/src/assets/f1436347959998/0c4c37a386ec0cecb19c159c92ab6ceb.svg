@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Fryingpan</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="stroked" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Kitchen" sketch:type="MSLayerGroup" transform="translate(-727.000000, -478.000000)" stroke="#535353" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <g id="Fryingpan" transform="translate(759.656854, 510.708892) rotate(-45.000000) translate(-759.656854, -510.708892) translate(742.156854, 477.708892)" sketch:type="MSShapeGroup">
+                <circle id="Oval-667" cx="18" cy="17" r="17"></circle>
+                <path d="M15,34 L20,34 L21.7102515,60.508899 C21.8702752,62.9892656 19.9802243,65 17.5,65 L17.5,65 C15.0147186,65 13.1296846,62.9898891 13.2897485,60.508899 L15,34 Z" id="Rectangle-716"></path>
+                <circle id="Oval-668" cx="18.7083694" cy="13.4068542" r="4"></circle>
+                <path d="M8.34047658,17.0377994 C8.34047658,17.0377994 6.94866169,12.7585633 9.19097969,9.68828193 C11.4332977,6.61800059 13.8719276,4.84646735 16.0798913,4.63961256 C18.287855,4.43275777 21.6684177,4.9846126 24.1523092,6.4335034 C26.6362008,7.8823942 29.6028717,10.1245305 29.6028727,14.0918486 C29.6028737,18.0591667 30.1549095,21.4293685 28.2230545,22.7402965 C26.2911995,24.0512245 26.4637002,22.4747301 20.9666034,23.6251542 C15.4695066,24.7755783 8.34047658,17.0377994 8.34047658,17.0377994 Z" id="Path-1508"></path>
+            </g>
+        </g>
+    </g>
+</svg>
