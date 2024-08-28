@@ -4,5 +4,34 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#content {
+    background:white;
+    padding:5px;
+    margin:10px auto;
+    width:90%;
+    border-radius:10px;
+}
+
+/* Navigation */
+#assignments-nav a {
+    text-decoration:none;
+    color:#149391;
+}
+
+#exercises-nav a {
+    text-decoration:none;
+    color:#149391;
+}
 
 /* Typography */
+h1 {
+    color: #0e6260;
+}
+
+p {
+    color: #149391;
+}
+
+h2 {
+    color:#0e6260;
+}
