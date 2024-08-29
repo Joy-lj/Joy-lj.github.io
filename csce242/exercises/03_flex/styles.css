@@ -1,0 +1,99 @@
+/* Structure */
+body {
+    background: url(images/water.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    width:95%;
+    margin:auto;
+    background:rgba(255, 255, 255, 0.7);
+    border-radius:5px;
+}
+
+#species section {
+    background: lightgreen;
+    padding:5px;
+    margin:5px;
+}
+
+#main-aside {
+    background:lightpink;
+    padding:5px;
+    margin:5px;
+}
+
+#news section {
+    background:lightcoral;
+}
+
+img {
+    max-width:100%;
+}
+
+#main-header {
+    background-color:#DFFEFC;
+    border-radius:5px;
+}
+
+#main-footer{
+    background-color:#217794;
+}
+
+
+/* Navigation */
+#main-nav ul {
+ padding-left:0;
+}
+
+#main-nav li {
+    list-style:none;
+    border-bottom:1px solid #DFFEFC;
+}
+
+#main-nav a {
+    text-decoration:none;
+    padding:5px;
+    background:black;
+    color:#DFFEFC;
+    display:block;
+}
+
+
+/* Typography */
+#main-footer p {
+    text-align:center;
+}
+
+/* Media Queries */
+/* Apply to 600px and larger */
+@media only screen and (min-width:600px) {
+    .columns {
+        display:flex;
+    }
+
+    .one {
+        flex:1;
+    }
+
+    .two {
+        flex:2;
+    }
+
+    .three {
+        flex:3;
+    }
+
+    .four {
+        flex:4;
+    }
+
+    #main-nav li {
+        flex:1;
+    }
+}
+
+/* Apply to 768px and larger */
+@media only screen and (min-width:768px) {
+
+}
