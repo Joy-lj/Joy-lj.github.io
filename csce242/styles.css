@@ -12,26 +12,52 @@ body {
     border-radius:10px;
 }
 
-/* Navigation */
-#assignments-nav a {
-    text-decoration:none;
-    color:#149391;
+#assignments section {
+    background:#13807e;
+    padding:10px;
+    border:white solid 10px;
+    margin:20px;
 }
 
-#exercises-nav a {
-    text-decoration:none;
-    color:#149391;
+img {
+    max-width:100%;
 }
 
 /* Typography */
-h1 {
-    color: #0e6260;
+h3 {
+    color:#0e6260;
 }
 
-p {
-    color: #149391;
+#assignments section {
+    color:white;
+    padding-left:10px;
+    text-align: center;
+    display:inline-block;
+}
+
+#assignments a {
+    text-decoration:none;
+    padding:5px;
+    color:white;
+}
+
+h1 {
+    color: #0e6260;
+    text-align:center;
 }
 
 h2 {
     color:#0e6260;
+    text-align:center;
+}
+
+/* Media Queries */
+@media only screen and (min-width:600px) {
+    .columns {
+        display:flex;
+    }
+
+    .one {
+        flex:1;
+    }
 }
