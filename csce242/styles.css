@@ -19,6 +19,13 @@ body {
     margin:20px;
 }
 
+#projects section {
+    background:#13807e;
+    padding:10px;
+    border:white solid 10px;
+    margin:20px;
+}
+
 img {
     max-width:100%;
 }
@@ -41,6 +48,19 @@ h3 {
     color:white;
 }
 
+#projects section {
+    color:white;
+    padding-left:10px;
+    text-align: center;
+    display:inline-block;
+}
+
+#projects a {
+    text-decoration:none;
+    padding:5px;
+    color:white;
+}
+
 h1 {
     color: #0e6260;
     text-align:center;
@@ -49,6 +69,10 @@ h1 {
 h2 {
     color:#0e6260;
     text-align:center;
+}
+
+h3 {
+    color:#0e6260;
 }
 
 /* Media Queries */
