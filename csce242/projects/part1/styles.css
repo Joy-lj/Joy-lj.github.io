@@ -1,0 +1,21 @@
+/* Structure */
+body {
+    background:lightpink;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#pdf {
+    background:white;
+    width:70%;
+    text-align: center;
+    margin:auto;
+    color:darksalmon;
+}
+
+#pdf{
+    padding:10px;
+}
+
+#pdf a {
+    color:darksalmon;
+}
