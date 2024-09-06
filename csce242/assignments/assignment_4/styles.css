@@ -1,7 +1,437 @@
 /* Structure */
+body {
+    background-color:white;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#content {
+    background-image:white;
+}
+
+.columns-all {
+    display:flex;
+}
+
+img {
+    max-width:100%;
+}
+
+#main-header {
+    position:relative;
+    background:black;
+    padding:30px;
+    color:white;
+    display:flex;
+}
+
+#main-image {
+    padding:0px;
+}
+
+#search-div {
+    background:black;
+    color:white;
+    border:white 2px solid;
+    display:inline-block;
+    position:absolute;
+    right:5%;
+    top:40%;
+}
+
+#search-div a {
+    text-decoration:none;
+    color:white;
+    padding:10px;
+    padding-right:200px;
+}
+
+#search-div a:hover {
+    background:white;
+    color:#e5e5e5;
+}
+
+#mid-div h1{
+    background:#73000a;
+    display:flex;
+    color:white;
+    padding:10px;
+    font-size:50px;
+    margin:40px;
+}
+
+#second-div {
+    display:flex;
+    background:white;
+    padding-bottom:80px;
+    margin:0;
+    display:block;
+}
+
+#second-div p {
+    text-align:left;
+    margin:10px;
+    padding-left:200px;
+    padding-right:300px;
+}
+
+#p1 {
+    font-size:20px;
+}
+
+#degree-div {
+    background:#73000a;
+    color:white;
+}
+
+#degree-div h1 {
+    padding-top:70px;
+    padding-left:30px;
+    font-size:40px;
+}
+
+#degree-div p {
+    padding-left:30px;
+    padding-right:40px;
+}
+
+#application-div {
+    background:black;
+    border:white 2px solid;
+    padding:20px;
+    margin:30px;
+    display:inline-block;
+}
+
+#application-div a {
+    padding:20px;
+}
+
+#application-div a:hover {
+    color:#73000a;
+    background:white;
+    padding:20px;
+}
+
+#application-div a {
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+}
+
+#investment-div {
+    background:#ececec;
+    display:block;
+    color:#73000a;
+    text-align:center;
+    padding:60px;
+}
+
+#investment-div h1 {
+    font-size:50px;
+}
+
+#investment-div p {
+    color:black;
+    margin:70px;
+    padding:0px;
+}
+
+#tuition-div {
+    background:#73000a;
+    color:white;
+    font-size:18px;
+    display:inline-block;
+    padding:20px;
+}
+
+#tuition-div a {
+    text-decoration:none;
+    color:white;
+    padding:20px;
+    margin:0px;
+}
+
+#tuition-div a:hover {
+    background:white;
+    color:#73000a;
+    padding:20px;
+    margin:0px;
+}
+
+#school-header-div {
+    background:white;
+    color:#73000a;
+    display:inline-block;
+    text-align:center;
+    padding-top:100px;
+    
+}
+
+#p-school {
+    padding-left:105px;
+    padding-right:150px;
+    padding-bottom:20px;
+}
+
+#school-div {
+    background:white;
+    color:#73000a;
+    padding-bottom:50px;
+    padding-left:20px;
+}
+
+#school-div section {
+    display:inline-block;
+    padding:20px;
+    text-align:left;
+}
+
+#school-div a {
+    text-decoration:none;
+    color:#73000a;
+}
+
+#school-div a:hover {
+    background:#f0f0f0;
+}
+
+#step-div {
+    background:black;
+    color:white;
+    padding-left:0px;
+}
+
+
+#apply-div {
+    background:#73000a;
+    padding:20px;
+    display:inline-block;
+    border:white 2px solid;
+}
+
+#apply-div a {
+    text-decoration:none;
+    color:white;
+    padding:20px;
+    font-size:18px;
+}
+
+#apply-div a:hover {
+    background:white;
+    color:#73000a;
+    padding:20px;
+}
+
+#bottom-div {
+    background:#73000a;
+    color:white;
+}
 
 /* Navigation */
+#top-nav {
+    width:fit-content;
+    position:absolute;
+    top:0%;
+    right:25%;
+    color:white;
+    display:flex;
+}
 
-/* Typography */
+#top-nav ul{
+    display:flex;
+    padding-left:0;
+}
+
+#top-nav li {
+    list-style-type:none;
+    padding:5px;
+    font-size:10px;
+}
+
+#top-nav a {
+    text-decoration:none;
+    color:white;
+}
+
+#top-nav a:hover {
+    background:darkred;
+}
+
+#top-nav2 {
+    width:fit-content;
+    position:absolute;
+    top:0%;
+    right:1%;
+    color:white;
+    display:flex;
+}
+
+#top-nav2 ul{
+    display:flex;
+    padding-left:0;
+}
+
+#top-nav2 li {
+    list-style-type:none;
+    padding:5px;
+    font-size:10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#top-nav2 a {
+    text-decoration:none;
+    color:white;
+}
+
+#top-nav2 a:hover {
+    background:#73000a;
+}
+
+#main-nav {
+    background:#73000a;
+    position:relative;
+    color:white;
+    padding:1px;
+    text-align:center;
+}
+
+#main-nav ul {
+    display:inline-flex;   
+}
+
+#main-nav li {
+    list-style-type:none;
+    padding:0px;
+    font-size:17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#main-nav a {
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding:10px;
+}
+
+#admissions {
+    background: #570008;
+    padding:5px; 
+}
+
+#main-nav a:hover {
+    background:#cc2e40;
+}
+
+#college-nav {
+    background:#73000a;
+    position:relative;
+    color:white;
+    padding:1px;
+    text-align:center;
+}
+
+#college-nav ul {
+    display:flex;   
+}
+
+#college-nav li {
+    list-style-type:none;
+    padding:0px;
+    font-size:17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#college-nav a {
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding:5px;
+    font-size:12px;
+}
+
+#college-nav a:hover {
+    background:#cc2e40;
+}
+
+#offices-nav {
+    background:#73000a;
+    position:relative;
+    color:white;
+    padding:1px;
+    text-align:center;
+}
+
+#offices-nav ul {
+    display:flex;   
+}
+
+#offices-nav li {
+    list-style-type:none;
+    padding:0px;
+    font-size:17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#offices-nav a {
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding:5px;
+    font-size:12px;
+}
+
+#offices-nav a:hover {
+    background:#cc2e40;
+}
+
+#tools-nav {
+    background:#73000a;
+    position:relative;
+    color:white;
+    padding:1px;
+    text-align:center;
+}
+
+#tools-nav ul {
+    display:flex;   
+}
+
+#tools-nav li {
+    list-style-type:none;
+    padding:0px;
+    font-size:17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#tools-nav a {
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding:5px;
+    font-size:12px;
+}
+
+#tools-nav a:hover {
+    background:#cc2e40;
+}
+
+/* Footer */
+#main-footer {
+    background:black;
+    color:white;
+    padding:5px;
+    font-size:12px;
+    border-top:white 1px solid;
+    padding-left:70px;
+}
 
 /* Media Queries */
+@media only screen and (min-width:600px) {
+    .columns {
+        display:flex;
+    }  
+
+    .one {
+        flex:1;
+    }
+}
