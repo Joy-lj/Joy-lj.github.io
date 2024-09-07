@@ -13,7 +13,7 @@ img {
 }
 
 #top-nav-div {
-    display:flex;
+    display:none;
 }
 
 #main-header {
@@ -59,11 +59,14 @@ img {
     padding:10px;
     font-size:50px;
     margin:40px;
+    position:absolute;
+    top:550px;
 }
 
 #second-div {
     display:flex;
     background:white;
+    padding-top:50px;
     padding-bottom:80px;
     margin:auto;
     display:block;
@@ -200,9 +203,18 @@ img {
 #step-div {
     background:black;
     color:white;
-    padding-left:0px;
+    padding-bottom:20px;
 }
 
+#step-div h2 {
+    font-size:40px;
+}
+
+#step-section {
+    position:relative;
+    padding-top:60px;
+    right:22%;
+}
 
 #apply-div {
     background:#73000a;
@@ -229,6 +241,12 @@ img {
     color:white;
     display:block;
     justify-content:space-around;
+    padding-top:20px;
+}
+
+#socialmedia-div {
+    display:inline-block;
+    padding-left:60%;
 }
 
 /* Navigation */
@@ -449,6 +467,7 @@ img {
     font-size:12px;
     border-top:white 1px solid;
     padding-left:70px;
+    text-align:center;
 }
 
 /* Media Queries */
@@ -459,9 +478,14 @@ img {
 
     .columns-all {
         display:flex;
-    }
+    }    
 
     .one {
         flex:1;
     }
+
+    #top-nav-div {
+        display:flex;
+    }
 }
+
