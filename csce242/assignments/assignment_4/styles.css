@@ -8,12 +8,12 @@ body {
     background-image:white;
 }
 
-.columns-all {
-    display:flex;
-}
-
 img {
     max-width:100%;
+}
+
+#top-nav-div {
+    display:flex;
 }
 
 #main-header {
@@ -22,6 +22,7 @@ img {
     padding:30px;
     color:white;
     display:flex;
+    margin:auto;
 }
 
 #main-image {
@@ -36,6 +37,7 @@ img {
     position:absolute;
     right:5%;
     top:40%;
+    margin:auto;
 }
 
 #search-div a {
@@ -63,7 +65,7 @@ img {
     display:flex;
     background:white;
     padding-bottom:80px;
-    margin:0;
+    margin:auto;
     display:block;
 }
 
@@ -225,6 +227,8 @@ img {
 #bottom-div {
     background:#73000a;
     color:white;
+    display:block;
+    justify-content:space-around;
 }
 
 /* Navigation */
@@ -331,14 +335,22 @@ img {
 }
 
 #college-nav ul {
-    display:flex;   
+    display:inline-flex;   
 }
+
+#college-nav ul h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+  }
 
 #college-nav li {
     list-style-type:none;
     padding:0px;
     font-size:17px;
     font-family:Arial, Helvetica, sans-serif;
+    margin-bottom:15px;
 }
 
 #college-nav a {
@@ -364,6 +376,13 @@ img {
 #offices-nav ul {
     display:flex;   
 }
+
+#offices-nav ul h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+  }
 
 #offices-nav li {
     list-style-type:none;
@@ -395,6 +414,13 @@ img {
 #tools-nav ul {
     display:flex;   
 }
+
+#tools-nav ul h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+  }
 
 #tools-nav li {
     list-style-type:none;
@@ -430,6 +456,10 @@ img {
     .columns {
         display:flex;
     }  
+
+    .columns-all {
+        display:flex;
+    }
 
     .one {
         flex:1;
