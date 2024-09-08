@@ -8,6 +8,10 @@ body {
     background-image:white;
 }
 
+.columns-all {
+    display:flex;
+}   
+
 img {
     max-width:100%;
 }
@@ -33,7 +37,7 @@ img {
     background:black;
     color:white;
     border:white 2px solid;
-    display:inline-block;
+    display:none;
     position:absolute;
     right:5%;
     top:40%;
@@ -53,30 +57,23 @@ img {
 }
 
 #mid-div h1{
-    background:#73000a;
+    background:white;
     display:flex;
-    color:white;
+    color:#73000a;
     padding:10px;
-    font-size:50px;
+    font-size:35px;
     margin:40px;
-    position:absolute;
-    top:550px;
 }
 
 #second-div {
-    display:flex;
     background:white;
     padding-top:50px;
     padding-bottom:80px;
-    margin:auto;
     display:block;
 }
 
 #second-div p {
     text-align:left;
-    margin:10px;
-    padding-left:200px;
-    padding-right:300px;
 }
 
 #p1 {
@@ -213,7 +210,7 @@ img {
 #step-section {
     position:relative;
     padding-top:60px;
-    right:22%;
+    left:2%;
 }
 
 #apply-div {
@@ -239,9 +236,12 @@ img {
 #bottom-div {
     background:#73000a;
     color:white;
-    display:block;
-    justify-content:space-around;
     padding-top:20px;
+    display:block;
+}
+
+#bottom-div nav {
+    display:block;
 }
 
 #socialmedia-div {
@@ -318,7 +318,7 @@ img {
 }
 
 #main-nav ul {
-    display:inline-flex;   
+    display:none;   
 }
 
 #main-nav li {
@@ -353,7 +353,7 @@ img {
 }
 
 #college-nav ul {
-    display:inline-flex;   
+    display:block;   
 }
 
 #college-nav ul h5 {
@@ -368,7 +368,6 @@ img {
     padding:0px;
     font-size:17px;
     font-family:Arial, Helvetica, sans-serif;
-    margin-bottom:15px;
 }
 
 #college-nav a {
@@ -392,7 +391,7 @@ img {
 }
 
 #offices-nav ul {
-    display:flex;   
+    display:block;   
 }
 
 #offices-nav ul h5 {
@@ -430,7 +429,7 @@ img {
 }
 
 #tools-nav ul {
-    display:flex;   
+    display:block;   
 }
 
 #tools-nav ul h5 {
@@ -476,10 +475,6 @@ img {
         display:flex;
     }  
 
-    .columns-all {
-        display:flex;
-    }    
-
     .one {
         flex:1;
     }
@@ -487,5 +482,50 @@ img {
     #top-nav-div {
         display:flex;
     }
+
+    #main-nav ul {
+        display:inline-flex;
+    }
+
+    #search-div {
+        display:inline-block;
+    }
+
+    #mid-div h1{
+        background:#73000a;
+        display:flex;
+        color:white;
+        padding:10px;
+        font-size:50px;
+        margin:40px;
+        position:absolute;
+        top:550px;
+    }
+
+    #second-div {
+        background:white;
+        padding-top:50px;
+        padding-bottom:80px;
+        display:block;
+    }
+    
+    #second-div p {
+        text-align:left;
+        margin:10px;
+        padding-left:200px;
+        padding-right:300px;
+    }
+    
+    #p1 {
+        font-size:20px;
+    }
+
+    #step-section {
+        position:absolute;
+        padding-top:60px;
+        left:30%;
+        right:22%;
+    }
+
 }
 
