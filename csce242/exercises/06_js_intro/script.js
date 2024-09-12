@@ -14,6 +14,9 @@ myButton.onclick = () => {
     document.getElementById("stuff").classList.add("special");
 };
 
+//document.getElementById("btn=click2").onclick = () => {
+// }
+
 secondButton.onclick = () => {
     document.getElementById("message").innerHTML = "Goodbye Everyone!";
     document.getElementById("stuff").classList.remove("special");
@@ -29,4 +32,13 @@ fourthButton.onclick = () => {
 
 fifthButton.onclick = () => {
     document.getElementById("stuff").classList.remove("animate");
+}
+
+// Showing data from an input field
+/* document.getElementById("txt-first-name").onkeyup = () => {
+    const textBox = document.getElementById("txt-first-name");
+    document.getElementById("result").innerHTML = textBox.value;
+} */
+document.getElementById("txt-first-name").onkeyup = (event) => {
+    document.getElementById("result").innerHTML = event.target.value;
 }
