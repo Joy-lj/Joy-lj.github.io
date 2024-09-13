@@ -83,8 +83,6 @@ footer {
     transition:transform 0.2s ease;
   }
 
-
-
 /* Media Query */
 @media only screen and (min-width: 600px) {
     .columns {
@@ -96,9 +94,28 @@ footer {
         margin: 2%;
         padding-bottom:6%;
     }
-
+    
     .one {
         flex:1;
     }
+}
 
+@media only screen and (max-width: 600px) {
+    #count-section {
+        margin:5%;
+        padding-top:10%;
+        padding-bottom:40%;
+    }
+
+    #image-section {
+        margin:5%;
+        padding-top:10%;
+        padding-bottom:40%;
+    }
+
+    #slider-section {
+        margin:5%;
+        padding-top:10%;
+        padding-bottom:90%;
+    }
 }
