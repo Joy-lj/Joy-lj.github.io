@@ -2,29 +2,102 @@
 <html>
     <head>
         <title>Project: HTML and CSS</title>
-        <link rel="stylesheet" src="styles.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div id="content">
             <header>
-                <h1>Joy's Online Library</h1>
-                <div id="account">
-                    <p>Account</p>
+                <h2>Joy's Online Library</h2>
+                <div id="account" class="columns">
+                    <p><a href="#">Account</a></p>
                 </div>
-                <div id="search">
-                    <input id="search-bar" type="text">
-                    <p>Search by Title or Author</p>
+                <div id="search" class="columns">
+                    <input id="search-bar" type="text" placeholder="Search by Title or Author">
                 </div>
             </header>
 
             <div id="main-content">
-                <aside id="browse-aside">
-
+                <aside id="browse-aside" class="one">
+                    <nav id="browse-nav">
+                        <h4>Browse Genres</h4>
+                        <ul>
+                            <li><a href="#">Non-fiction</a></li>
+                            <li><a href="#">Fantasy</a></li>
+                            <li><a href="#">Horror</a></li>
+                            <li><a href="#">Romance</a></li>
+                            <li><a href="#">Sci-fi</a></li>
+                        </ul>
+                        <h4><a href="#">Recently Added</a></h4>
+                    </nav>
+                    <div id="login">
+                        <button><a href="#">Login/Sign Up</a></button>
+                    </div>
                 </aside>
-                <section id="content-section">
-                    
+                
+                <section id="book-section" class="four">
+                    <div id="title" class="one">
+                        <h1><strong>Explore Joy's Online Collection!</strong></h1>
+                    </div>
+                    <h2><strong>Best of 2024!</strong></h2>
+                    <div id="book-content" class="columns">
+                        <section class="one">
+                            <a href="#"><p>To Kill a Mockingbird</p></a>
+                            <a href="#"><p>Harper Lee</p></a>
+                            <a href="#"><img src="https://place-hold.it/150x200"></a>
+                        </section>
+                        <section class="one">
+                            <a href="#"><p>Pride and Prejudice</p></a>
+                            <a href="#"><p>Jane Austin</p></a>
+                            <a href="#"><img src="https://place-hold.it/150x200"></a>
+                        </section>
+                        <section class="one">
+                            <a href="#"><p>The Lord of the Rings</p></a>
+                            <a href="#"><p>J.R.R. Tolkien</p></a>
+                            <a href="#"><img src="https://place-hold.it/150x200"></a>
+                        </section>
+                        <section class="one">
+                            <a href="#"><p>Little Women</p></a>
+                            <a href="#"><p>Louisa May Alcott</p></a>
+                            <a href="#"><img src="https://place-hold.it/150x200"></a>
+                        </section>
+                    </div>
+
+                    <div id="book-content2" class="columns">
+                        <section class="one">
+                            <a href="#"><p>The Book Thief</p></a>
+                            <a href="#"><p>Markus Zusak</p></a>
+                            <a href="#"><img src="https://place-hold.it/150x200"></a>
+                        </section>
+                        <section class="one">
+                            <a href="#"><p>Anne of Green Gables</p></a>
+                            <a href="#"><p>Lucy Maud Montgomery</p></a>
+                            <a href="#"><img src="https://place-hold.it/150x200"></a>
+                        </section>
+                        <section class="one">
+                            <a href="#"><p>The Catcher in the Rye</p></a>
+                            <a href="#"><p>J.D. Salinger</p></a>
+                            <a href="#"><img src="https://place-hold.it/150x200"></a>
+                        </section>
+                        <section class="one">
+                            <a href="#"><p>Don Quixote</p></a>
+                            <a href="#"><p>Miguel de Cervantes</p></a>
+                            <a href="#"><img src="https://place-hold.it/150x200"></a>
+                        </section>
+                    </div>
                 </section>
             </div>
         </div>
     </body>
+    <footer>
+        <div id="footer-div" class="columns">
+            <div id="home-div">
+                <button id="home-button"><a href="#">Home</a></button>
+            </div>
+            <div id="contact-div" class="columns">
+                <p>Contact Us:</p>
+                <p>joy.library@email.com</p>
+                <p>(999)-999-9999</p>
+            </div>
+        </div>
+    </footer>
 </html>
