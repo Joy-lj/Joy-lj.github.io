@@ -319,19 +319,39 @@ footer {
     padding-left:10px;
 }
 
-#book-section {
-    display:block;
-    margin-left:10px;
-}
-
 #admin-book {
-    display:block;
     margin-left:10px;
     margin-bottom:10px;
+    line-height:5px;
 }
 
 #admin-book2 {
-    display:block;
+    margin-left:10px;
+    margin-bottom:10px;
+    line-height:5px;
+}
+
+#book-buttons {
+    display:flex;
+}
+
+#buttons-div {
+    margin:10px;
+}
+
+#add {
+    margin:10px;
+    width:60px;
+}
+
+#edit {
+    margin:10px;
+    width:60px;
+}
+
+#delete {
+    margin:10px;
+    width:60px;
 }
 
 .button {
@@ -428,5 +448,13 @@ footer {
     #contact-div {
         position:absolute;
         left:75%;
+    }
+
+    #admin-book {
+        display:block;
+    }
+
+    #admin-book2 {
+        display:block;
     }
 }
