@@ -13,7 +13,7 @@ document.getElementById("image-section").onclick = () => {
 
 };
 document.getElementById("mySlider").oninput = function() {
-  var sliderValue = this.value;
-  var sliderImage = document.getElementById("slider-image");
-  sliderImage.style.left = (sliderValue * 2) + "px";
+    var sliderValue = this.value;
+    var sliderImage = document.getElementById("slider-image");
+    sliderImage.style.left = (sliderValue * 2) + "px";
 };
