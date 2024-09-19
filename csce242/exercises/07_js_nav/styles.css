@@ -1,4 +1,9 @@
 /* Structure */
+:root {
+  --ball-color:white;
+  --funds:0%;
+}
+
 
 body {
     background-color: azure;
@@ -58,6 +63,19 @@ body {
   
   h1 {
     text-align: center;
+  }
+
+  .error {
+    color:red;
+  }
+
+  /* Thermometer */
+  #funds-thermometer {
+    border: 1px solid gray;
+    width:20px;
+    height:100px;
+    /*background:linear-gradient(45deg, red 15%, orange 30%, yellow 50%, green 75%, blue 100%);*/
+    background:linear-gradient(0deg, red 0% var(--funds), white var(--funds) 100%);
   }
 
   /* Visibility */

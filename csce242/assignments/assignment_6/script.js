@@ -23,12 +23,13 @@ document.getElementById("mySlider").onchange = (e) => {
     document.getElementById("color-div").style.setProperty("background-color", `rgb(${e.target.value}, 0, 0)`);
     
     const message = document.getElementById("message");
+    
     if (e.target.value < 75) {
-        message.textContent = "Cool";
+        message.innerHTML = "Cool";
     } else if (e.target.value >= 75 && e.target.value < 180) {
-        message.textContent = "Getting warmer";
+        message.innerHTML = "Getting warmer";
     } else {
-        message.textContent = "Very hot";
+        message.innerHTML = "Very hot";
     }
 };
 
