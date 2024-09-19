@@ -49,8 +49,8 @@ document.getElementById("btn-show-color").onclick = () => {
  -If it is not a number or it is negative, show an error in the error
  Otherwise first show the percent out of 10,000 towards goal
  Next show a visual representation with a box and a gradient */
-
- document.getElementById("txt-donations") = () => {
+ document.getElementById("btn-donate").onclick = () => {
+    const goal = 10000;
     const donation = document.getElementById("txt-donations").value;
     const error = document.getElementById("error-donation");
     error.innerHTML = ""; //clear previous error
