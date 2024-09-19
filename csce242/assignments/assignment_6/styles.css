@@ -1,0 +1,165 @@
+/* Structure */
+body {
+    background:lightblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background:lightblue;
+}
+
+img {
+    max-width:100%;
+}
+
+/* Top Div */
+#top-div {
+    text-align:center;
+}
+
+#top-div h1 {
+    color:darkslateblue;
+}
+
+#top-div a {
+    text-decoration:none;
+    color:black;
+}
+
+#exercise-div a {
+    color:darkslateblue;
+}
+
+.exercise:not(:last-child)::after {
+    content:"|";
+    margin-left:5px;
+    margin-right:5px;
+}
+
+/* Visibility */
+.hidden {
+    display:none;
+}
+
+.hidden-small {
+    display:none;
+}
+
+.hidden-big {
+    display:block;
+}
+
+/* Toggle Arrow */
+.arrowdown-toggle {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid #555;
+}
+
+.arrowup-toggle {
+    width:0;
+    height:0;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom:10px solid #555;
+}
+
+/* Slider */
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 95%;
+    height: 25px;
+    background: lightgrey;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance:none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background:darkseagreen;
+  }
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px; 
+    background: darkseagreen; 
+    cursor: pointer;
+}
+
+#slider-container {
+    position:relative;
+}
+
+#color-div {
+    color:white;
+    text-align:center;
+    background-color:darkgray;
+    width:400px;
+    height:150px;
+    padding-top:10px;
+    position:relative;
+    left:33%;
+}
+
+/* Picture */
+#picture-div {
+    background-color:darkgray;
+    width:400px;
+    height:auto;
+    position:relative;
+    left:33%;
+    padding:5px;
+    border:darkslateblue 1px solid;
+    align-items:center;
+}
+
+#picture-div h3 {
+    text-align:center;
+    color:darkslateblue;
+}
+
+#image {
+    margin:10px;
+    margin-left:50px;
+}
+
+/* Footer */
+footer {
+    text-align:center;
+    color:darkslateblue;
+}
+
+/* Media Query */
+@media only screen and (min-width: 600px) {
+    .columns {
+        display:flex;
+    }
+    
+    .hidden-small {
+        display:inline-flex;
+    }
+
+    .hidden-big {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #color-div {
+        position:relative;
+        left:10%;
+    }
+
+    #picture-div {
+        position:relative;
+        left:10%;
+    }
+
+    
+}

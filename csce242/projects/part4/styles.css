@@ -1,0 +1,460 @@
+/* Structure */
+:root {
+    --theme:#377F7F;
+    --text:white;
+    --maintext:black;
+    --background:white;
+    --line:#BBBBBB;
+    --infobackground: rgb(55, 127, 127, 0.74);
+    --expire:red;
+}
+
+body {
+    background:var(--text);
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+}
+
+#content {
+    background:var(--text);
+}
+
+image {
+    max-width:100%;
+}
+
+/* Library Main */
+
+/* Header */
+header {
+    background:var(--theme);
+    color:var(--text);
+    display:flex;
+    padding-left:10px;
+}
+
+#main-text {
+    text-decoration:none;
+    color:var(--text);
+}
+
+#account {
+    position:relative;
+    left:75%;
+}
+
+#account a {
+    color:var(--text);
+}
+
+#search {
+    position:absolute;
+    left:85.3%;
+    top:7%;
+    display:block;
+}
+
+/* Main */
+#main-content {
+    display:flex;
+}
+
+#title {
+    text-align:center;
+    color:var(--theme);
+    background:var(--background);
+    border-bottom:var(--line) 1px solid;
+    font-size:25px;
+}
+
+#book-section {
+    display:block;
+}
+
+#book-section h2 {
+    text-align:center;
+    color:var(--theme);
+}
+
+#book-content {
+    margin-left:8%;
+}
+
+#book-content2 {
+    margin-left:8%;
+    padding-top:10px;
+}
+
+#book-content a {
+    text-decoration:none;
+    color:var(--maintext);
+    line-height:5px;
+}
+
+#book-content2 a {
+    text-decoration:none;
+    color:var(--maintext);
+    line-height:5px;
+}
+
+/* Aside */
+#browse-aside {
+    border-right:var(--line) 1px solid;
+    margin-left:10px;
+}
+
+#browse-nav h4 {
+    border-bottom:var(--line) 1px solid;
+}
+
+#browse-nav li {
+    list-style-type:none;
+}
+
+#browse-nav a {
+    text-decoration:none;
+    color:var(--maintext);
+}
+
+#browse-nav a:hover {
+    background:var(--line);
+}
+
+#login a {
+    text-decoration:none;
+    color:var(--maintext);
+}
+
+/* Footer */
+footer {
+    background:var(--line);
+    display:flex;
+    color:var(--text);
+}
+
+#home-div {
+    background:var(--line);
+    padding:25px;
+}
+
+#home-button {
+    background:var(--theme);
+    display:inline-block;
+    font-size:18px;
+}
+
+#home-button a {
+    color:var(--text);
+    text-decoration:none;
+}
+
+#contact-div {
+    background:var(--theme);
+    position:absolute;
+    left:90%;
+    display:inline-block;
+    line-height:5px;
+    font-size:12px;
+    padding:4px;
+    padding-right:15px;
+    padding-left:10px;
+}
+
+/* Book Description */
+#background-div {
+    background:var(--infobackground);
+    width:90%;
+    margin:50px;
+    padding:20px;
+}
+
+#available-books {
+    background:var(--background);
+    width:150px;
+    font-size:12px;
+}
+
+#book-div {
+    text-align:center;
+    margin:30px;
+}
+
+
+/* Login/Sign Up */
+.center {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#login-header {
+    background:var(--background);
+    color:var(--theme);
+    border-bottom:var(--line) 1px solid;
+}
+
+#email {
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+#email-bar {
+    width:70%;
+    height:40px;
+}
+
+#password-bar {
+    width:70%;
+    height:40px;
+}
+
+#admin-button {
+    font-size:15px;
+    margin:20px;
+}
+
+#admin-button a {
+    text-decoration:none;
+    color:var(--maintext);
+}
+
+#signin-button {
+    font-size:18px;
+    width:70%;
+    height:40px;
+}
+
+#signin-button a {
+    text-decoration:none;
+    color:var(--maintext);
+}
+
+#signup-div a {
+   text-decoration:none;
+   margin:10px;
+}
+
+#signup-div p {
+    margin-right:20px;
+}
+
+#signup-button a {
+    color:var(--maintext);
+}
+
+#firstname {
+    margin-bottom:60px;
+}
+
+#firstname-bar {
+    width:70%;
+    height:40px;
+}
+
+#lastname-bar {
+    width:70%;
+    height:40px;
+}
+
+#signup-button2 {
+    margin-top:40px;
+    font-size:18px;
+    width:70%;
+    height:40px;
+}
+
+#signup-button2 a {
+    text-decoration:none;
+    margin:10px;
+    color:var(--maintext);
+}
+
+/* Book */
+.split {
+    height:100%;
+    width:50%;
+    position:fixed;
+    top:6%;
+    overflow-x:hidden;
+    padding-top:10px;
+}
+
+.left {
+    left:0;
+}
+
+.right {
+    right:0;
+}
+
+#book-cover {
+    position:absolute;
+    left:0;
+}
+
+#book-header {
+    background:var(--background);
+    border-bottom:var(--line) 1px solid;
+    padding:10px;
+}
+
+#library-button {
+    position:relative;
+    left:90%;
+}
+
+/* Library */
+#expire {
+    color:var(--expire);
+}
+
+#returnbook-div {
+    text-align:center;
+}
+
+/* Admin */
+#admin-title {
+    border-left:var(--line) 1px solid;
+    margin-left:10px;
+    padding-left:10px;
+}
+
+#admin-book {
+    margin-left:10px;
+    margin-bottom:10px;
+    line-height:5px;
+}
+
+#admin-book2 {
+    margin-left:10px;
+    margin-bottom:10px;
+    line-height:5px;
+}
+
+#book-buttons {
+    display:flex;
+}
+
+#buttons-div {
+    margin:10px;
+}
+
+#add {
+    margin:10px;
+    width:60px;
+}
+
+#edit {
+    margin:10px;
+    width:60px;
+}
+
+#delete {
+    margin:10px;
+    width:60px;
+}
+
+.button {
+    text-decoration:none;
+    color:var(--maintext);
+}
+
+#user {
+    margin-top:10px;
+}
+
+/* Borrowed/Returned Book */
+#borrow-content {
+    background:var(--theme);
+    width:100%;
+    height:700px;
+}
+
+#borrow-background {
+  background:var(--background);
+  position:absolute;
+  top:10%;
+  left:10%;
+  width:80%;
+  height:80%;
+  padding:20px;
+  text-align:center;
+}
+
+#borrow-background h1 {
+    color:var(--theme);
+    font-size:50px;
+    padding-top:30px;
+}
+
+#viewlibrary {    
+    width:150px;
+    height:40px;
+    margin:20px;
+}
+
+/* Media Query */
+@media only screen and (min-width:600px) {
+    .columns {
+        display:flex;
+    }
+
+    .one {
+        flex:1;
+    }
+
+    .four {
+        flex:4;
+    }
+} 
+
+@media only screen and (max-width:600px) {
+    .columns {
+        display:flex;
+    }
+
+    .one {
+        flex:1;
+    }
+
+    .four {
+        flex:4;
+    }
+
+    #account {
+        position:relative;
+        left:43%;
+    }
+
+    #search {
+        position:absolute;
+        top:8%;
+        left:67.5%;
+    }
+
+    #book-content {
+        display:block;
+    }
+
+    #book-content2 {
+        display:block;
+    }
+
+    #browse-nav ul {
+        position:relative;
+        right:20%;
+    }
+
+    #contact-div {
+        position:absolute;
+        left:75%;
+    }
+
+    #admin-book {
+        display:block;
+    }
+
+    #admin-book2 {
+        display:block;
+    }
+}
