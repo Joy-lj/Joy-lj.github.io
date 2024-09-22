@@ -23,6 +23,15 @@ image {
     max-width:100%;
 }
 
+/* Visibility */
+.hidden-small {
+    display:none;
+}
+
+.hidden-small-aside {
+    display:none;
+}
+
 /* Library Main */
 
 /* Header */
@@ -52,6 +61,91 @@ header {
     left:85.3%;
     top:7%;
     display:block;
+}
+
+/* Main Nav */
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color:var(--maintext);
+    margin:6px 0;
+}
+
+#main-nav {
+    text-align:center;
+    background:var(--theme);
+}
+
+#main-nav ul {
+    padding-left: 0px;
+    margin:0;
+}
+  
+#main-nav li {
+    list-style-type: none;
+    padding: 5px;
+    border:var(--text) 1px solid;
+}
+  
+#main-nav a {
+    text-decoration: none;
+    color:var(--text);
+    padding:15px;
+    
+}
+
+#main-nav li:hover {
+    border:var(--maintext) 2px solid;
+}
+
+#main-nav2 {
+    text-align:center;
+    background:var(--background);
+}
+
+#main-nav2 ul {
+    margin:0;
+    margin-left:300px;
+}
+  
+#main-nav2 li {
+    list-style-type: none;
+    margin:15px;
+    border:var(--theme) 1px solid;
+}
+  
+#main-nav2 a {
+    text-decoration: none;
+    color:var(--maintext);
+    padding:30px;
+    font-size:20px;
+    margin:20px;
+}
+
+#main-nav2 li:hover {
+    border:var(--maintext) 2px solid;
+}
+
+/* About */
+#about-content {
+    background:var(--background);
+    text-align:center;
+    padding-bottom:150px;
+}
+
+#join {
+    padding-top:50px;
+}
+
+#join a {
+    color:var(--theme);
+}
+
+/* Contact */
+#contact-content {
+    background:var(--background);
+    text-align:center;
+    padding-bottom:150px;
 }
 
 /* Main */
@@ -95,6 +189,11 @@ header {
     text-decoration:none;
     color:var(--maintext);
     line-height:5px;
+}
+
+#cite {
+    font-size:8px;
+    margin:0;
 }
 
 /* Aside */
@@ -270,21 +369,14 @@ footer {
 }
 
 /* Book */
-.split {
-    height:100%;
-    width:50%;
-    position:fixed;
-    top:6%;
-    overflow-x:hidden;
-    padding-top:10px;
-}
-
 .left {
     left:0;
 }
 
 .right {
+    position:absolute;
     right:0;
+    width:50%;
 }
 
 #book-cover {
@@ -393,6 +485,8 @@ footer {
     margin:20px;
 }
 
+
+
 /* Media Query */
 @media only screen and (min-width:600px) {
     .columns {
@@ -405,6 +499,18 @@ footer {
 
     .four {
         flex:4;
+    }
+
+    #toggle-nav {
+        display:none;
+    }
+
+    .hidden-small {
+        display:flex;
+    }
+
+    .hidden-small-aside {
+        display:block;
     }
 } 
 
@@ -421,6 +527,10 @@ footer {
         flex:4;
     }
 
+    .hidden-small {
+        display:block;
+    }
+    
     #account {
         position:relative;
         left:43%;
@@ -430,6 +540,15 @@ footer {
         position:absolute;
         top:8%;
         left:67.5%;
+    }
+
+    #main-nav2 {
+        position:relative;
+        right:60%;
+    }
+
+    #main-nav2 a {
+        padding:5px;
     }
 
     #book-content {
