@@ -395,6 +395,16 @@ footer {
     left:90%;
 }
 
+#tableofcontents {
+    line-height:25px;
+}
+
+#parts {
+    font-size:20px;
+    text-decoration:underline;
+    padding:10px;
+}
+
 /* Library */
 #expire {
     color:var(--expire);
@@ -533,13 +543,13 @@ footer {
     
     #account {
         position:relative;
-        left:43%;
+        left:35%;
     }
 
     #search {
         position:absolute;
         top:8%;
-        left:67.5%;
+        left:63%;
     }
 
     #main-nav2 {
@@ -553,10 +563,26 @@ footer {
 
     #book-content {
         display:block;
+        position: relative;
+        left:18%;
+        padding-top:20px;
     }
 
     #book-content2 {
         display:block;
+        position: relative;
+        left:18%;
+        padding-bottom:20px;
+    }
+
+    #book-content img {
+        height:300px;
+        width:220px;
+    }
+
+    #book-content2 img {
+        height:300px;
+        width:220px;
     }
 
     #browse-nav ul {
@@ -575,5 +601,19 @@ footer {
 
     #admin-book2 {
         display:block;
+    }
+
+    #book {
+        position:relative;
+        display:block;
+    }
+
+    #book-cover {
+        display:none;
+    }
+
+    #book-page {
+        position: absolute;      
+        left:0;  
     }
 }
