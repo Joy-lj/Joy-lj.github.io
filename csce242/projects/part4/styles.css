@@ -12,7 +12,6 @@
 body {
     background:var(--text);
     font-family:Arial, Helvetica, sans-serif;
-    width:100%;
 }
 
 #content {
@@ -72,8 +71,9 @@ header {
 }
 
 #main-nav {
-    text-align:center;
     background:var(--theme);
+    text-align:center;
+    display:flex;
 }
 
 #main-nav ul {
@@ -91,39 +91,10 @@ header {
     text-decoration: none;
     color:var(--text);
     padding:15px;
-    
 }
 
 #main-nav li:hover {
-    border:var(--maintext) 2px solid;
-}
-
-#main-nav2 {
-    text-align:center;
-    background:var(--background);
-}
-
-#main-nav2 ul {
-    margin:0;
-    margin-left:300px;
-}
-  
-#main-nav2 li {
-    list-style-type: none;
-    margin:15px;
-    border:var(--theme) 1px solid;
-}
-  
-#main-nav2 a {
-    text-decoration: none;
-    color:var(--maintext);
-    padding:30px;
-    font-size:20px;
-    margin:20px;
-}
-
-#main-nav2 li:hover {
-    border:var(--maintext) 2px solid;
+    border:var(--maintext) 1px solid;
 }
 
 /* About */
@@ -146,6 +117,7 @@ header {
     background:var(--background);
     text-align:center;
     padding-bottom:150px;
+    padding:150px;
 }
 
 /* Main */
@@ -199,7 +171,6 @@ header {
 /* Aside */
 #browse-aside {
     border-right:var(--line) 1px solid;
-    margin-left:10px;
 }
 
 #browse-nav h4 {
@@ -245,18 +216,6 @@ footer {
 #home-button a {
     color:var(--text);
     text-decoration:none;
-}
-
-#contact-div {
-    background:var(--theme);
-    position:absolute;
-    left:90%;
-    display:inline-block;
-    line-height:5px;
-    font-size:12px;
-    padding:4px;
-    padding-right:15px;
-    padding-left:10px;
 }
 
 /* Book Description */
@@ -376,7 +335,8 @@ footer {
 .right {
     position:absolute;
     right:0;
-    width:50%;
+    width:65%;
+    margin:20px;
 }
 
 #book-cover {
@@ -540,6 +500,10 @@ footer {
     .hidden-small {
         display:block;
     }
+
+    body {
+        overflow-x:hidden;
+    }
     
     #account {
         position:relative;
@@ -588,11 +552,6 @@ footer {
     #browse-nav ul {
         position:relative;
         right:20%;
-    }
-
-    #contact-div {
-        position:absolute;
-        left:75%;
     }
 
     #admin-book {
