@@ -55,7 +55,7 @@ document.getElementById("btn-show-color").onclick = () => {
     const error = document.getElementById("error-donation");
     error.innerHTML = ""; //clear previous error
 
-    if(isNaN(donations) || donations < 0) {
+    if(isNaN(donation) || donation < 0) {
         error.innerHTML = "*Invalid donations";
         return;
     }
