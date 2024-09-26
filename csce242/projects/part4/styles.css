@@ -104,6 +104,14 @@ header {
     padding-bottom:150px;
 }
 
+#about-content h1 {
+    color:var(--theme);
+}
+
+#about-content p {
+    margin:40px;
+}
+
 #join {
     padding-top:50px;
 }
@@ -116,8 +124,32 @@ header {
 #contact-content {
     background:var(--background);
     text-align:center;
-    padding-bottom:150px;
-    padding:150px;
+    padding:40px;
+    padding-top:10px;
+}
+
+#contact-content h1 {
+    color:var(--theme);
+}
+
+#contact-input {
+    display:block;
+    background:var(--line);
+    padding:20px;
+    border-radius:10px;
+}
+
+#contact-input input {
+    width:700px;
+}
+
+#message-bar{
+    height:300px;
+    width:700px;
+}
+
+#sendmessage-button {
+    margin:10px;
 }
 
 /* Main */
@@ -149,6 +181,7 @@ header {
 #book-content2 {
     margin-left:8%;
     padding-top:10px;
+    margin-bottom:10px;
 }
 
 #book-content a {
@@ -236,7 +269,6 @@ footer {
     text-align:center;
     margin:30px;
 }
-
 
 /* Login/Sign Up */
 .center {
@@ -341,28 +373,33 @@ footer {
 
 #book-cover {
     position:absolute;
-    left:0;
+    left:9px;
 }
 
 #book-header {
-    background:var(--background);
+    background:var(--theme);
     border-bottom:var(--line) 1px solid;
     padding:10px;
 }
 
 #library-button {
     position:relative;
-    left:90%;
+    left:95%;
 }
 
-#tableofcontents {
-    line-height:25px;
+#book-page {
+    text-align:center;
 }
 
-#parts {
-    font-size:20px;
-    text-decoration:underline;
-    padding:10px;
+#book-page p {
+    line-height:20px;
+}
+
+#dedication {
+    margin-top:50px;
+    border-top:var(--line) 1px solid;
+    text-align:center;
+    padding:20px;
 }
 
 /* Library */
@@ -384,12 +421,18 @@ footer {
 #admin-book {
     margin-left:10px;
     margin-bottom:10px;
-    line-height:5px;
 }
 
 #admin-book2 {
     margin-left:10px;
     margin-bottom:10px;
+}
+
+#admin-book p {
+    line-height:5px;
+}
+
+#admin-book2 p {
     line-height:5px;
 }
 
@@ -446,7 +489,7 @@ footer {
 #borrow-background h1 {
     color:var(--theme);
     font-size:50px;
-    padding-top:30px;
+    padding-top:100px;
 }
 
 #viewlibrary {    
@@ -454,8 +497,6 @@ footer {
     height:40px;
     margin:20px;
 }
-
-
 
 /* Media Query */
 @media only screen and (min-width:600px) {
@@ -516,13 +557,8 @@ footer {
         left:63%;
     }
 
-    #main-nav2 {
-        position:relative;
-        right:60%;
-    }
-
-    #main-nav2 a {
-        padding:5px;
+    #main-nav {
+        margin:10px;
     }
 
     #book-content {
@@ -572,7 +608,25 @@ footer {
     }
 
     #book-page {
-        position: absolute;      
-        left:0;  
+        width:auto;
+    }   
+
+    #library-button {
+        position:relative;
+        left:85%;
+    }
+
+    #borrow-background {
+        background:var(--background);
+        top:10%;
+        left:5%;
+        width:80%;
+        height:80%;
+        text-align:center;
+      }
+
+    #contact-input input {
+        width:300px;
+        display:flex;
     }
 }
