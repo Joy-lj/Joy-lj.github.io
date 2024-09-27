@@ -228,6 +228,10 @@ header {
     color:var(--maintext);
 }
 
+#login {
+    margin-top:10px;
+}
+
 /* Footer */
 footer {
     background:var(--line);
