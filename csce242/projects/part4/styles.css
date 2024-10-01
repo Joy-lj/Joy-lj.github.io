@@ -94,7 +94,7 @@ header {
 }
 
 #main-nav li:hover {
-    border:var(--maintext) 1px solid;
+    border-bottom:var(--maintext) 1px solid;
 }
 
 /* About */
