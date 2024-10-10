@@ -29,17 +29,8 @@ const getIcecreamSection = (icecream) => {
     overlayDiv.textContent = icecream.name;
     icecreamDiv.append(overlayDiv);
 
-    icecreamDiv.addEventListener("mouseenter", () => {
-        overlayDiv.style.opacity = "0.9";
-    });
-
-    icecreamDiv.addEventListener("mouseleave", () => {
-        overlayDiv.style.opacity = "0";
-    });
-
     section.append(icecreamDiv);
     return section;
 };
-
 
 showIcecream();

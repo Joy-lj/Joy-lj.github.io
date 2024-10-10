@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: HTML and CSS</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="content">
+            <header>
+                <h2><a id="main-text" href="index.html">Joy's Online Library</a></h2>
+                <div id="admin-title">
+                    <h2>Admin</h2>    
+                </div>
+                
+            </header>
+
+            <div id="main-content">
+                <div id="toggle-nav">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <aside id="browse-aside" class="one hidden-small-aside">
+                    <nav id="main-nav">
+                        <ul id="nav-items" class="columns hidden-small">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <nav id="browse-nav">
+                        <h4><a href="admin.html">Books</a></h4>
+                        <h4><a href="adminusers.html">Users</a></h4>
+                    </nav>
+                    <div id="login">
+                        <button><a href="login.html">Logout</a></button>
+                    </div>
+                </aside>
+                
+                <section id="admin-section" class="four">
+                    <div id="title" class="one">
+                        <h1><strong>Admin Dashboard: Books</strong></h1>
+                    </div>
+                    <div id="search-admin">
+                        <input id="search-bar" type="text" placeholder="Search by Title or Author">
+                    </div>
+                    <div id="admin-book" class="columns">
+                        <section class="one">
+                            <p>To Kill a Mockingbird</p>
+                            <p>Harper Lee</p>
+                            <div id="book-buttons">
+                                <div>
+                                    <img src="images/bookcovers/tokillamockingbird.jpg"></a>
+                                    <p id="cite">@"To Kill a Mockingbird", goodreads, n.d.</p>      
+                                </div>                              
+                                <div id="buttons-div">
+                                    <button id="add"><a class="button" href="#">Add</a></button><br>
+                                    <button id="edit"><a class="button" href="#">Edit</a></button><br>
+                                    <button id="delete"><a class="button" href="#">Delete</a></button>   
+                                </div>
+                            </div>
+                        </section>
+                        <section class="one">
+                            <p>Pride and Prejudice</p>
+                            <p>Jane Austin</p>
+                            <div id="book-buttons">
+                                <div>
+                                    <img src="images/bookcovers/prideandprejudice.jpg"></a>
+                                    <p id="cite">@"Pride and Prejudice", goodreads, n.d.</p>        
+                                </div>                      
+                                <div id="buttons-div">
+                                    <button id="add"><a class="button" href="#">Add</a></button><br>
+                                    <button id="edit"><a class="button" href="#">Edit</a></button><br>
+                                    <button id="delete"><a class="button" href="#">Delete</a></button>   
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div id="admin-book2" class="columns">
+                        <section class="one">
+                            <p>The Lord of the Rings</p>
+                            <p>J.R.R. Tolkien</p>
+                            <div id="book-buttons">
+                                <div>
+                                    <img src="images/bookcovers/lordoftherings.jpg"></a>
+                                    <p id="cite">@"The Lord of the Rings", goodreads, n.d.</p>    
+                                </div>                            
+                                <div id="buttons-div">
+                                    <button id="add"><a class="button" href="#">Add</a></button><br>
+                                    <button id="edit"><a class="button" href="#">Edit</a></button><br>
+                                    <button id="delete"><a class="button" href="#">Delete</a></button>   
+                                </div>
+                            </div>
+                        </section>
+                        <section class="one">
+                            <p>Little Women</p>
+                            <p>Louisa May Alcott</p>
+                            <div id="book-buttons">
+                                <div>
+                                    <img src="images/bookcovers/littlewomen.jpg"></a>
+                                    <p id="cite">@"Little Women", goodreads, n.d.</p>     
+                                </div>                            
+                                <div id="buttons-div">
+                                    <button id="add"><a class="button" href="#">Add</a></button><br>
+                                    <button id="edit"><a class="button" href="#">Edit</a></button><br>
+                                    <button id="delete"><a class="button" href="#">Delete</a></button>   
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <div id="footer-div" class="columns">
+                <div id="home-div">
+                    <button id="home-button"><a href="index.html">Home</a></button>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

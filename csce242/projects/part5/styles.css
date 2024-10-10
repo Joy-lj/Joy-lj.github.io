@@ -1,0 +1,636 @@
+/* Structure */
+:root {
+    --theme:#377F7F;
+    --text:white;
+    --maintext:black;
+    --background:white;
+    --line:#BBBBBB;
+    --infobackground: rgb(55, 127, 127, 0.74);
+    --expire:red;
+}
+
+body {
+    background:var(--text);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background:var(--text);
+}
+
+image {
+    max-width:100%;
+}
+
+/* Visibility */
+.hidden-small {
+    display:none;
+}
+
+.hidden-small-aside {
+    display:none;
+}
+
+/* Library Main */
+
+/* Header */
+header {
+    background:var(--theme);
+    color:var(--text);
+    display:flex;
+    padding-left:10px;
+}
+
+#main-text {
+    text-decoration:none;
+    color:var(--text);
+}
+
+#account {
+    position:relative;
+    left:75%;
+}
+
+#account a {
+    color:var(--text);
+}
+
+#search {
+    position:absolute;
+    left:85.3%;
+    top:7%;
+    display:block;
+}
+
+/* Main Nav */
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color:var(--maintext);
+    margin:6px 0;
+}
+
+#main-nav {
+    background:var(--theme);
+    text-align:center;
+    display:flex;
+}
+
+#main-nav ul {
+    padding-left: 0px;
+    margin:0;
+}
+  
+#main-nav li {
+    list-style-type: none;
+    padding: 5px;
+    border:var(--text) 1px solid;
+}
+  
+#main-nav a {
+    text-decoration: none;
+    color:var(--text);
+    padding:15px;
+}
+
+#main-nav li:hover {
+    border-bottom:var(--maintext) 1px solid;
+}
+
+/* About */
+#about-content {
+    background:var(--background);
+    text-align:center;
+    padding-bottom:150px;
+}
+
+#about-content h1 {
+    color:var(--theme);
+}
+
+#about-content p {
+    margin:40px;
+}
+
+#join {
+    padding-top:50px;
+}
+
+#join a {
+    color:var(--theme);
+}
+
+/* Contact */
+#contact-content {
+    background:var(--background);
+    text-align:center;
+    padding:40px;
+    padding-top:10px;
+}
+
+#contact-content h1 {
+    color:var(--theme);
+}
+
+#contact-input {
+    display:block;
+    background:var(--line);
+    padding:20px;
+    border-radius:10px;
+}
+
+#contact-input input {
+    width:700px;
+}
+
+#message-bar{
+    height:300px;
+    width:700px;
+}
+
+#sendmessage-button {
+    margin:10px;
+}
+
+/* Main */
+#main-content {
+    display:flex;
+}
+
+#title {
+    text-align:center;
+    color:var(--theme);
+    background:var(--background);
+    border-bottom:var(--line) 1px solid;
+    font-size:25px;
+}
+
+#book-section {
+    display:block;
+}
+
+#book-section h2 {
+    text-align:center;
+    color:var(--theme);
+}
+
+#book-content {
+    margin-left:8%;
+}
+
+#book-content2 {
+    margin-left:8%;
+    padding-top:10px;
+    margin-bottom:10px;
+}
+
+#book-content a {
+    text-decoration:none;
+    color:var(--maintext);
+    line-height:5px;
+}
+
+#book-content2 a {
+    text-decoration:none;
+    color:var(--maintext);
+    line-height:5px;
+}
+
+#cite {
+    font-size:8px;
+    margin:0;
+}
+
+/* Aside */
+#browse-aside {
+    border-right:var(--line) 1px solid;
+}
+
+#browse-nav h4 {
+    border-bottom:var(--line) 1px solid;
+}
+
+#browse-nav li {
+    list-style-type:none;
+}
+
+#browse-nav a {
+    text-decoration:none;
+    color:var(--maintext);
+}
+
+#browse-nav a:hover {
+    background:var(--line);
+}
+
+#login a {
+    text-decoration:none;
+    color:var(--maintext);
+}
+
+#login {
+    margin-top:10px;
+}
+
+/* Footer */
+footer {
+    background:var(--line);
+    display:flex;
+    color:var(--text);
+}
+
+#home-div {
+    background:var(--line);
+    padding:25px;
+}
+
+#home-button {
+    background:var(--theme);
+    display:inline-block;
+    font-size:18px;
+}
+
+#home-button a {
+    color:var(--text);
+    text-decoration:none;
+}
+
+/* Book Description */
+#background-div {
+    background:var(--infobackground);
+    width:90%;
+    margin:50px;
+    padding:20px;
+}
+
+#available-books {
+    background:var(--background);
+    width:150px;
+    font-size:12px;
+}
+
+#book-div {
+    text-align:center;
+    margin:30px;
+}
+
+/* Login/Sign Up */
+.center {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#login-header {
+    background:var(--background);
+    color:var(--theme);
+    border-bottom:var(--line) 1px solid;
+}
+
+#email {
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+#email-bar {
+    width:70%;
+    height:40px;
+}
+
+#password-bar {
+    width:70%;
+    height:40px;
+}
+
+#admin-button {
+    font-size:15px;
+    margin:20px;
+}
+
+#admin-button a {
+    text-decoration:none;
+    color:var(--maintext);
+}
+
+#signin-button {
+    font-size:18px;
+    width:70%;
+    height:40px;
+}
+
+#signin-button a {
+    text-decoration:none;
+    color:var(--maintext);
+}
+
+#signup-div a {
+   text-decoration:none;
+   margin:10px;
+}
+
+#signup-div p {
+    margin-right:20px;
+}
+
+#signup-button a {
+    color:var(--maintext);
+}
+
+#firstname {
+    margin-bottom:60px;
+}
+
+#firstname-bar {
+    width:70%;
+    height:40px;
+}
+
+#lastname-bar {
+    width:70%;
+    height:40px;
+}
+
+#signup-button2 {
+    margin-top:40px;
+    font-size:18px;
+    width:70%;
+    height:40px;
+}
+
+#signup-button2 a {
+    text-decoration:none;
+    margin:10px;
+    color:var(--maintext);
+}
+
+/* Book */
+.left {
+    left:0;
+}
+
+.right {
+    position:absolute;
+    right:0;
+    width:65%;
+    margin:20px;
+}
+
+#book-cover {
+    position:absolute;
+    left:9px;
+}
+
+#book-header {
+    background:var(--theme);
+    border-bottom:var(--line) 1px solid;
+    padding:10px;
+}
+
+#library-button {
+    position:relative;
+    left:95%;
+}
+
+#book-page {
+    text-align:center;
+}
+
+#book-page p {
+    line-height:20px;
+}
+
+#dedication {
+    margin-top:50px;
+    border-top:var(--line) 1px solid;
+    text-align:center;
+    padding:20px;
+}
+
+/* Library */
+#expire {
+    color:var(--expire);
+}
+
+#returnbook-div {
+    text-align:center;
+}
+
+/* Admin */
+#admin-title {
+    border-left:var(--line) 1px solid;
+    margin-left:10px;
+    padding-left:10px;
+}
+
+#admin-book {
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+#admin-book2 {
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+#admin-book p {
+    line-height:5px;
+}
+
+#admin-book2 p {
+    line-height:5px;
+}
+
+#book-buttons {
+    display:flex;
+}
+
+#buttons-div {
+    margin:10px;
+}
+
+#add {
+    margin:10px;
+    width:60px;
+}
+
+#edit {
+    margin:10px;
+    width:60px;
+}
+
+#delete {
+    margin:10px;
+    width:60px;
+}
+
+.button {
+    text-decoration:none;
+    color:var(--maintext);
+}
+
+#user {
+    margin-top:10px;
+}
+
+/* Borrowed/Returned Book */
+#borrow-content {
+    background:var(--theme);
+    width:100%;
+    height:700px;
+}
+
+#borrow-background {
+  background:var(--background);
+  position:absolute;
+  top:10%;
+  left:10%;
+  width:80%;
+  height:80%;
+  padding:20px;
+  text-align:center;
+}
+
+#borrow-background h1 {
+    color:var(--theme);
+    font-size:50px;
+    padding-top:100px;
+}
+
+#viewlibrary {    
+    width:150px;
+    height:40px;
+    margin:20px;
+}
+
+/* Media Query */
+@media only screen and (min-width:600px) {
+    .columns {
+        display:flex;
+    }
+
+    .one {
+        flex:1;
+    }
+
+    .four {
+        flex:4;
+    }
+
+    #toggle-nav {
+        display:none;
+    }
+
+    .hidden-small {
+        display:flex;
+    }
+
+    .hidden-small-aside {
+        display:block;
+    }
+} 
+
+@media only screen and (max-width:900px) {
+    .columns {
+        display:flex;
+    }
+
+    .one {
+        flex:1;
+    }
+
+    .four {
+        flex:4;
+    }
+
+    .hidden-small {
+        display:block;
+    }
+
+    body {
+        overflow-x:hidden;
+    }
+    
+    #account {
+        position:relative;
+        left:35%;
+    }
+
+    #search {
+        position:absolute;
+        top:8%;
+        left:63%;
+    }
+
+    #main-nav {
+        margin:10px;
+    }
+
+    #book-content {
+        display:block;
+        position: relative;
+        left:18%;
+        padding-top:20px;
+    }
+
+    #book-content2 {
+        display:block;
+        position: relative;
+        left:18%;
+        padding-bottom:20px;
+    }
+
+    #book-content img {
+        height:300px;
+        width:220px;
+    }
+
+    #book-content2 img {
+        height:300px;
+        width:220px;
+    }
+
+    #browse-nav ul {
+        position:relative;
+        right:20%;
+    }
+
+    #admin-book {
+        display:block;
+    }
+
+    #admin-book2 {
+        display:block;
+    }
+
+    #book {
+        position:relative;
+        display:block;
+    }
+
+    #book-cover {
+        display:none;
+    }
+
+    #book-page {
+        width:auto;
+    }   
+
+    #library-button {
+        position:relative;
+        left:85%;
+    }
+
+    #borrow-background {
+        background:var(--background);
+        top:10%;
+        left:5%;
+        width:80%;
+        height:80%;
+        text-align:center;
+      }
+
+    #contact-input input {
+        width:300px;
+        display:flex;
+    }
+}
