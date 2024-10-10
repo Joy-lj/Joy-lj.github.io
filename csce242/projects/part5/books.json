@@ -1,0 +1,74 @@
+[
+    {
+        "id":"1",
+        "name":"To Kill a Mockingbird",
+        "author":"Harper Lee",
+        "summary":"",
+        "availability":"3 out of 5",
+        "image":"https://github.com/Joy-lj/Joy-lj.github.io/blob/main/csce242/projects/part5/images/bookcovers/tokillamockingbird.jpg",
+        "cite":"@'To Kill a Mockingbird', goodreads, n.d."
+    },
+    {
+        "id":"2",
+        "name":"Pride and Prejudice",
+        "author":"Jane Austin",
+        "summary":"",
+        "availability":"4 out of 6",
+        "image":"https://github.com/Joy-lj/Joy-lj.github.io/blob/main/csce242/projects/part5/images/bookcovers/prideandprejudice.jpg",
+        "cite":"@'Pride and Prejudice', goodreads, n.d."
+    },
+    {
+        "id":"3",
+        "name":"The Lord of the Rings",
+        "author":"J.R.R. Tolkien",
+        "summary":"",
+        "availability":"2 out of 8",
+        "image":"https://github.com/Joy-lj/Joy-lj.github.io/blob/main/csce242/projects/part5/images/bookcovers/lordoftherings.jpg",
+        "cite":"@'The Lord of the Rings', goodreads, n.d."
+    },
+    {
+        "id":"4",
+        "name":"Little Women",
+        "author":"Louisa May Alcott",
+        "summary":"",
+        "availability":"5 out of 5",
+        "image":"",
+        "cite":"@'Little Women', goodreads, n.d."
+    },
+    {
+        "id":"5",
+        "name":"The Book Thief",
+        "author":"Markus Zusak",
+        "summary":"https://github.com/Joy-lj/Joy-lj.github.io/blob/main/csce242/projects/part5/images/bookcovers/thebookthief.jpg",
+        "availability":"1 out of 6",
+        "image":"",
+        "cite":"@'The Book Thief', goodreads, n.d."
+    },
+    {
+        "id":"6",
+        "name":"Anne of Green Gables",
+        "author":"Lucy Maud Montgomery",
+        "summary":"",
+        "availability":"2 out of 8",
+        "image":"https://github.com/Joy-lj/Joy-lj.github.io/blob/main/csce242/projects/part5/images/bookcovers/anneofgreengables.jpg",
+        "cite":"@'Anne of Green Gables', goodreads, n.d."
+    },
+    {
+        "id":"7",
+        "name":"The Catcher in the Rye",
+        "author":"J.D. Salinger",
+        "summary":"",
+        "availability":"2 out of 5",
+        "image":"https://github.com/Joy-lj/Joy-lj.github.io/blob/main/csce242/projects/part5/images/bookcovers/thecatcherintherye.jpg",
+        "cite":"@'The Catcher in the Rye', goodreads, n.d."
+    },
+    {
+        "id":"8",
+        "name":"Don Quixote",
+        "author":"Miguel de Cervantes",
+        "summary":"",
+        "availability":"5 out of 5",
+        "image":"https://github.com/Joy-lj/Joy-lj.github.io/blob/main/csce242/projects/part5/images/bookcovers/donquixonte.jpg",
+        "cite":"@'Don Quixote', goodreads, n.d."
+    }
+]
