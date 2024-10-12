@@ -168,16 +168,15 @@ header {
 .book-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    justify-content:center;
 }
+
 .book {
-    border: 1px solid #ddd;
-    padding: 10px;
-    max-width: 200px;
+    padding: 20px;
     text-align: center;
 }
 .book img {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 
@@ -200,6 +199,11 @@ header {
     margin-bottom:10px;
 }
 
+.book-content {
+    text-decoration:none;
+    color:var(--maintext);
+}
+
 #book-content a {
     text-decoration:none;
     color:var(--maintext);
@@ -213,6 +217,11 @@ header {
 }
 
 #cite {
+    font-size:8px;
+    margin:0;
+}
+
+.cite {
     font-size:8px;
     margin:0;
 }
