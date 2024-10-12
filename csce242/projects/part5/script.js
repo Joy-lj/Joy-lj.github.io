@@ -21,7 +21,7 @@ const showBooks = async () => {
         document.getElementById("books-section").append(section);
 
         const a = document.createElement("a");
-        a.href = book.url;
+        a.href = `https://joy-lj.github.io/csce242/projects/part5/${book.url}`;
         a.classList.add("book-content");
         section.append(a);
 
