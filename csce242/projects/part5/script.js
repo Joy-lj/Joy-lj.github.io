@@ -20,11 +20,6 @@ const showBooks = async () => {
         section.classList.add("book");
         document.getElementById("books-section").append(section);
 
-        const img = document.createElement("img");
-        img.src = book.image;
-        img.alt = book.name;
-        section.append(img);
-
         const h3 = document.createElement("h3");
         h3.innerHTML = book.name;
         section.append(h3);
@@ -33,8 +28,16 @@ const showBooks = async () => {
         author.innerHTML = `Author: ${book.author}`;
         section.append(author);
 
+        const img = document.createElement("img");
+        img.src = `https://joy-lj.github.io/csce242/projects/part5/images/bookcovers/${book.image}`;
+        section.append(img);
+
         const availability = document.createElement("p");
         availability.innerHTML = `Availability: ${book.availability}`;
         section.append(availability);
+
+        return section;
     });
 };
+
+showBooks();
