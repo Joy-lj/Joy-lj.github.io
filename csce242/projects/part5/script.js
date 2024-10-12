@@ -20,9 +20,14 @@ const showBooks = async () => {
         section.classList.add("book");
         document.getElementById("books-section").append(section);
 
+        const a = document.createElement("a");
+        a.href = `https://joy-lj.github.io/csce242/projects/part5/bookdescrip.html`;  // Link to the specific page for each book
+        a.target = "_blank"; // Open link in a new tab
+        section.append(a);
+
         const h3 = document.createElement("h3");
         h3.innerHTML = book.name;
-        section.append(h3);
+        a.append(h3);
 
         const author = document.createElement("p");
         author.innerHTML = `Author: ${book.author}`;
