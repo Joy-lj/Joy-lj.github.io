@@ -165,6 +165,22 @@ header {
     font-size:25px;
 }
 
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.book {
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-width: 200px;
+    text-align: center;
+}
+.book img {
+    width: 100%;
+    height: auto;
+}
+
 #book-section {
     display:block;
 }
