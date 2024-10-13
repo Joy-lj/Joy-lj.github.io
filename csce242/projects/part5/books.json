@@ -13,7 +13,8 @@
         "image":"tokillamockingbird.jpg",
         "cite":"@'To Kill a Mockingbird', goodreads, n.d.",
         "expiration":"10 days",
-        "url":"bookdescrip.html"
+        "descriptionUrl":"bookdescrip.html",
+        "bookUrl":"book.html"
     },
     {
         "id":"2",
@@ -29,8 +30,8 @@
         "image":"prideandprejudice.jpg",
         "cite":"@'Pride and Prejudice', goodreads, n.d.",
         "expiration":"10 days",
-        "url":"https://joy-lj.github.io/csce242/projects/part5/bookdescrip.html"
-
+        "descriptionUrl":"bookdescrip.html",
+        "bookUrl":"book.html"
     },
     {
         "id":"3",
@@ -46,7 +47,8 @@
         "image":"lordoftherings.jpg",
         "cite":"@'The Lord of the Rings', goodreads, n.d.",
         "expiration":"10 days",
-        "url":"https://joy-lj.github.io/csce242/projects/part5/bookdescrip.html"
+        "descriptionUrl":"bookdescrip.html",
+        "bookUrl":"book.html"    
     },
     {
         "id":"4",
@@ -62,7 +64,8 @@
         "image":"littlewomen.jpg",
         "cite":"@'Little Women', goodreads, n.d.",
         "expiration":"10 days",
-        "url":"https://joy-lj.github.io/csce242/projects/part5/bookdescrip.html"
+        "descriptionUrl":"bookdescrip.html",
+        "bookUrl":"book.html"    
     },
     {
         "id":"5",
@@ -78,7 +81,8 @@
         "image":"thebookthief.jpg",
         "cite":"@'The Book Thief', goodreads, n.d.",
         "expiration":"10 days",
-        "url":"https://joy-lj.github.io/csce242/projects/part5/bookdescrip.html"
+        "descriptionUrl":"bookdescrip.html",
+        "bookUrl":"book.html"    
     },
     {
         "id":"6",
@@ -94,7 +98,8 @@
         "image":"anneofgreengables.jpg",
         "cite":"@'Anne of Green Gables', goodreads, n.d.",
         "expiration":"10 days",
-        "url":"https://joy-lj.github.io/csce242/projects/part5/bookdescrip.html"
+        "descriptionUrl":"bookdescrip.html",
+        "bookUrl":"book.html"    
     },
     {
         "id":"7",
@@ -110,7 +115,8 @@
         "image":"thecatcherintherye.jpg",
         "cite":"@'The Catcher in the Rye', goodreads, n.d.",
         "expiration":"10 days",
-        "url":"https://joy-lj.github.io/csce242/projects/part5/bookdescrip.html"
+        "descriptionUrl":"bookdescrip.html",
+        "bookUrl":"book.html"    
     },
     {
         "id":"8",
@@ -126,6 +132,7 @@
         "image":"donquixonte.jpg",
         "cite":"@'Don Quixote', goodreads, n.d.",
         "expiration":"10 days",
-        "url":"https://joy-lj.github.io/csce242/projects/part5/bookdescrip.html"
+        "descriptionUrl":"bookdescrip.html",
+        "bookUrl":"book.html"    
     }
 ]

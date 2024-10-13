@@ -436,6 +436,10 @@ footer {
     color:var(--expire);
 }
 
+.expire {
+    color:var(--expire);
+}
+
 #returnbook-div {
     text-align:center;
 }

@@ -21,7 +21,7 @@ const showBooks = async () => {
         document.getElementById("book-div").append(bookSection);
 
         const a = document.createElement("a");
-        a.href = book.url;
+        a.href = book.descriptionUrl;
         a.classList.add("book-content");
         bookSection.append(a);
 
@@ -41,6 +41,10 @@ const showBooks = async () => {
         cite.classList.add("cite");
         cite.innerHTML = book.cite;
         bookSection.append(cite);
+
+        const availability = document.createElement("p");
+        availability.innerHTML = `Availability: ${book.availability}`;
+        bookSection.append(availability);
 
         return bookSection;
     });

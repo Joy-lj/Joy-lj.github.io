@@ -21,7 +21,7 @@ const showBooks = async () => {
         document.getElementById("book-div").append(bookSection);
 
         const a = document.createElement("a");
-        a.href = book.url;
+        a.href = book.bookUrl;
         a.classList.add("book-content");
         bookSection.append(a);
 
@@ -42,7 +42,10 @@ const showBooks = async () => {
         cite.innerHTML = book.cite;
         bookSection.append(cite);
 
-        const 
+        const expiration = document.createElement("p");
+        expiration.classList.add("expire");
+        expiration.innerHTML = "Expires in " + book.expiration + "!";
+        bookSection.append(expiration);
 
         return bookSection;
     });
