@@ -1,6 +1,16 @@
 /* Small screen */
 document.querySelector("#toggle-nav").onclick = () => {
     document.getElementById("browse-aside").classList.toggle("hidden-small-aside");
+
+    const aboutContent = document.getElementById("about-content");
+    if (aboutContent) {
+        aboutContent.classList.add("about-content");
+    }
+
+    const contactContent = document.getElementById("contact-content");
+    if (contactContent) {
+        contactContent.classList.add("contact-content");
+    }
 };
 
 /* Parsing JSON */

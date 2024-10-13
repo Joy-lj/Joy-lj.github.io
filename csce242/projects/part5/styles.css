@@ -134,6 +134,10 @@ header {
     color:var(--theme);
 }
 
+.about-content {
+    overflow:hidden;
+}
+
 /* Contact */
 #contact-content {
     background:var(--background);
@@ -164,6 +168,10 @@ header {
 
 #sendmessage-button {
     margin:10px;
+}
+
+.contact-content {
+    overflow:hidden;
 }
 
 /* Main */
@@ -651,7 +659,7 @@ footer {
       }
 
     #contact-input input {
-        width:300px;
+        width:auto;
         display:flex;
     }
 
