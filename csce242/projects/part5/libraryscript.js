@@ -42,6 +42,8 @@ const showBooks = async () => {
         cite.innerHTML = book.cite;
         bookSection.append(cite);
 
+        const 
+
         return bookSection;
     });
 };
