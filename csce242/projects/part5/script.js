@@ -62,3 +62,43 @@ const showBooks = async () => {
 };
 
 showBooks();
+
+/*const displayBook = (bookId) => {
+    // Find the book by ID using an arrow function
+    const book = books.find(b => book.id === bookId);
+    
+    // Check if the book exists
+    if (book) {
+        // Example to display the book's information on the page
+
+        const backgroundDiv = document.createElement("div");
+        backgroundDiv.classList.add("background-div");
+        document.getElementById("background-div").append(backgroundDiv);
+
+        const bookDiv = document.createElement("div");
+        backgroundDiv.append(bookDiv);
+
+        bookDiv.append(img);
+        bookDiv.append(cite);
+        bookDiv.append(availability);
+
+        //const borrowButton = document.createElement("button");
+
+        const bookInfo = document.createElement("div");
+        backgroundDiv.append(bookInfo);
+
+        bookInfo.append(name);
+        bookInfo.append(author);
+        
+        const bookSummary = document.createElement("p");
+        bookSummary.innerHTML = book.summary;
+        backgroundDiv.append(bookSummary);
+
+        return backgroundDiv;
+
+    } else {
+        console.log('Book not found');
+    }
+};
+
+displayBook("1");*/

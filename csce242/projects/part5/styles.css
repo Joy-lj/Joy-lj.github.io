@@ -281,20 +281,21 @@ footer {
 }
 
 /* Book Description */
-#background-div {
+.background-div {
     background:var(--infobackground);
-    width:90%;
-    margin:50px;
+    margin:30px;
     padding:20px;
+    display:flex;
 }
 
-#available-books {
+.available-books {
     background:var(--background);
     width:150px;
     font-size:12px;
+    text-align:center;
 }
 
-#book-div {
+.book-div {
     text-align:center;
     margin:30px;
 }
@@ -614,8 +615,12 @@ footer {
         width:auto;
     }
 
-    #available-books {
-        margin-left:60px;
+    .available-books {
+        margin-left:80px;
+    }
+
+    .background-div {
+        display:block;
     }
 
     #browse-nav ul {
