@@ -30,7 +30,7 @@
         "image":"prideandprejudice.jpg",
         "cite":"@'Pride and Prejudice', goodreads, n.d.",
         "expiration":"10 days",
-        "descriptionUrl":"bookdescrip.html",
+        "descriptionUrl":"bookdescrip2.html",
         "bookUrl":"book.html"
     },
     {
@@ -47,7 +47,7 @@
         "image":"lordoftherings.jpg",
         "cite":"@'The Lord of the Rings', goodreads, n.d.",
         "expiration":"10 days",
-        "descriptionUrl":"bookdescrip.html",
+        "descriptionUrl":"bookdescrip3.html",
         "bookUrl":"book.html"    
     },
     {
@@ -64,7 +64,7 @@
         "image":"littlewomen.jpg",
         "cite":"@'Little Women', goodreads, n.d.",
         "expiration":"10 days",
-        "descriptionUrl":"bookdescrip.html",
+        "descriptionUrl":"bookdescrip4.html",
         "bookUrl":"book.html"    
     },
     {
@@ -81,7 +81,7 @@
         "image":"thebookthief.jpg",
         "cite":"@'The Book Thief', goodreads, n.d.",
         "expiration":"10 days",
-        "descriptionUrl":"bookdescrip.html",
+        "descriptionUrl":"bookdescrip5.html",
         "bookUrl":"book.html"    
     },
     {
@@ -98,7 +98,7 @@
         "image":"anneofgreengables.jpg",
         "cite":"@'Anne of Green Gables', goodreads, n.d.",
         "expiration":"10 days",
-        "descriptionUrl":"bookdescrip.html",
+        "descriptionUrl":"bookdescrip6.html",
         "bookUrl":"book.html"    
     },
     {
@@ -115,7 +115,7 @@
         "image":"thecatcherintherye.jpg",
         "cite":"@'The Catcher in the Rye', goodreads, n.d.",
         "expiration":"10 days",
-        "descriptionUrl":"bookdescrip.html",
+        "descriptionUrl":"bookdescrip7.html",
         "bookUrl":"book.html"    
     },
     {
@@ -132,7 +132,7 @@
         "image":"donquixonte.jpg",
         "cite":"@'Don Quixote', goodreads, n.d.",
         "expiration":"10 days",
-        "descriptionUrl":"bookdescrip.html",
+        "descriptionUrl":"bookdescrip8.html",
         "bookUrl":"book.html"    
     }
 ]
