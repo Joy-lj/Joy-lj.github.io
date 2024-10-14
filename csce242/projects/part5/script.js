@@ -32,7 +32,7 @@ const showBooks = async () => {
         document.getElementById("book-div").append(bookSection);
 
         const a = document.createElement("a");
-        a.href = book.descriptionUrl;
+        a.href = `https://joy-lj.github.io/csce242/projects/part5/${book.descriptionUrl}`;
         a.classList.add("book-content");
         bookSection.append(a);
 
