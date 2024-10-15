@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: HTML and CSS</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="content">
+            <header>
+                <h2><a id="main-text" href="index.html">Joy's Online Library</a></h2>
+                <div id="account" class="columns">
+                    <p><a href="library.html">Account</a></p>
+                </div>
+            </header>
+            
+            <div id="main-content">
+                <div id="toggle-nav">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <aside id="browse-aside" class="one hidden-small-aside">
+                    <nav id="main-nav">
+                        <ul id="nav-items" class="columns hidden-small">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div id="login">
+                        <button><a href="login.html">Login/Sign Up</a></button>
+                    </div>
+                </aside>
+                <div id="contact-content">
+                    <h1>Contact</h1>
+                    <a>Feel free to reach us at our email or number!</a>
+                    <p>Email: joy.library@email.com</p>
+                    <p>Phone #: (999)-999-9999</p>
+                    <p>Below is the location of our office if needed!</p>
+                    <div id="form-map">
+                        <div id="contact-input" class="columns">
+                            <form
+                                id="contact-form"
+                                action="https://api.web3forms.com/submit"
+                                method="POST"
+                            >
+                            <input
+                                type="hidden"
+                                name="access_key"
+                                value="2cc869cb-a5d4-4b4b-b609-7d0a0bd4ea78"
+                            />
+                            <p>
+                                <label for="name">Name:</label>
+                                <input
+                                id="name"
+                                type="text"
+                                placeholder="First and Last Name"
+                                name="name"
+                                required
+                                />
+                            </p>
+                            <p>
+                                <label for="email">Email Address:</label>
+                                <input id="email" type="email" placeholder="Email" name="email" required />
+                            </p>
+                            <p>
+                                <label for="message">Message:</label>
+                                <textarea id="message" placeholder="Type your message..." name="message" required></textarea>
+                            </p>
+                            <input
+                                type="hidden"
+                                name="redirect"
+                                value="https://web3forms.com/success"
+                            />
+                            <input
+                                type="hidden"
+                                name="subject"
+                                value="Contact from Joy's Online Library"
+                            />
+                            <input type="hidden" name="from_name" value="My Website" />
+                
+                            <p>
+                                <button type="submit">Send Message</button>
+                            </p>
+                
+                            <p id="result"></p>
+                            </form> 
+                        </div> 
+                    
+                        <iframe
+                            id="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.9680495664916!2d-81.03426492365364!3d33.99335442083652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb2802562b89%3A0x1f5707bd271c887!2sAssembly%20Blossom%20NB!5e0!3m2!1sen!2sus!4v1697203534136!5m2!1sen!2sus"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="footer-div" class="columns">
+                <div id="home-div">
+                </div>
+            </div>
+        </footer>
+        <script src="contact.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

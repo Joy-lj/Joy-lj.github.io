@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: HTML and CSS</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="content">
+            <header>
+                <h2><a id="main-text" href="index.html">Joy's Online Library</a></h2>
+                <div id="account" class="columns">
+                    <p><a href="library.html">Account</a></p>
+                </div>
+                <div id="search" class="columns">
+                    <input id="search-bar" type="text" placeholder="Search by Title or Author">
+                </div>
+            </header>
+
+            <div id="main-content">
+                <div id="toggle-nav">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <aside id="browse-aside" class="one hidden-small-aside">
+                    <nav id="main-nav">
+                        <ul id="nav-items" class="columns hidden-small">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <nav id="browse-nav">
+                        <h4>Browse Genres</h4>
+                        <ul>
+                            <li><a href="nonfiction.html">Nonfiction</a></li>
+                            <li><a href="fantasy.html">Fantasy</a></li>
+                            <li><a href="horror.html">Horror</a></li>
+                            <li><a href="romance.html">Romance</a></li>
+                            <li><a href="scifi.html">Sci-fi</a></li>
+                        </ul>
+                        <h4><a href="recent.html">Recently Added</a></h4>
+                    </nav>
+                    <div id="login">
+                        <button><a href="login.html">Login/Sign Up</a></button>
+                    </div>
+                </aside>
+                
+                <section id="book-section" class="four">
+                    <div id="title" class="one">
+                        <h1><strong>Romance</strong></h1>
+                    </div>
+                    <div class="book-container" id="book-div"></div>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <div id="footer-div" class="columns">
+                <div id="home-div">
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
