@@ -178,6 +178,7 @@ form button,
 select {
     font-size: 12px;
     width: 200px;
+    height:20px;
 }
 
 .inline {
