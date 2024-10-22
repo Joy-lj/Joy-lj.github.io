@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+div {
+    background:lightblue;
+    width:400px;
+    padding:10px;
+    position:relative;
+    left:30%;
+}
+
+a {
+    color:black;
+}
