@@ -12,9 +12,7 @@
         ],
         "image":"tokillamockingbird.jpg",
         "cite":"@'To Kill a Mockingbird', goodreads, n.d.",
-        "expiration":"10 days",
-        "descriptionUrl":"bookdescrip1.html",
-        "bookUrl":"book.html"
+        "expiration":"10 days"
     },
     {
         "id":"2",
@@ -29,9 +27,7 @@
         ],
         "image":"prideandprejudice.jpg",
         "cite":"@'Pride and Prejudice', goodreads, n.d.",
-        "expiration":"10 days",
-        "descriptionUrl":"bookdescrip2.html",
-        "bookUrl":"book.html"
+        "expiration":"10 days"
     },
     {
         "id":"3",
@@ -46,9 +42,7 @@
         ],
         "image":"lordoftherings.jpg",
         "cite":"@'The Lord of the Rings', goodreads, n.d.",
-        "expiration":"10 days",
-        "descriptionUrl":"bookdescrip3.html",
-        "bookUrl":"book.html"    
+        "expiration":"10 days"    
     },
     {
         "id":"4",
@@ -63,9 +57,7 @@
         ],
         "image":"littlewomen.jpg",
         "cite":"@'Little Women', goodreads, n.d.",
-        "expiration":"10 days",
-        "descriptionUrl":"bookdescrip4.html",
-        "bookUrl":"book.html"    
+        "expiration":"10 days"    
     },
     {
         "id":"5",
@@ -80,9 +72,7 @@
         ],
         "image":"thebookthief.jpg",
         "cite":"@'The Book Thief', goodreads, n.d.",
-        "expiration":"10 days",
-        "descriptionUrl":"bookdescrip5.html",
-        "bookUrl":"book.html"    
+        "expiration":"10 days"    
     },
     {
         "id":"6",
@@ -97,9 +87,7 @@
         ],
         "image":"anneofgreengables.jpg",
         "cite":"@'Anne of Green Gables', goodreads, n.d.",
-        "expiration":"10 days",
-        "descriptionUrl":"bookdescrip6.html",
-        "bookUrl":"book.html"    
+        "expiration":"10 days"    
     },
     {
         "id":"7",
@@ -114,9 +102,7 @@
         ],
         "image":"thecatcherintherye.jpg",
         "cite":"@'The Catcher in the Rye', goodreads, n.d.",
-        "expiration":"10 days",
-        "descriptionUrl":"bookdescrip7.html",
-        "bookUrl":"book.html"    
+        "expiration":"10 days"  
     },
     {
         "id":"8",
@@ -131,8 +117,6 @@
         ],
         "image":"donquixonte.jpg",
         "cite":"@'Don Quixote', goodreads, n.d.",
-        "expiration":"10 days",
-        "descriptionUrl":"bookdescrip8.html",
-        "bookUrl":"book.html"    
+        "expiration":"10 days" 
     }
 ]
